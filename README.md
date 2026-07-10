@@ -66,7 +66,15 @@ sudo nano /var/www/html/index.html
 sudo systemctl restart nginx
 # Website URL
 http://13.207.204.159
-
+**git**
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/rithish-nakirikanti1/devops-assignment.git
+git push -u origin main
+git add .
+git commit -m "docker images add "
+git push -u origin main           
 # Screenshots Included
 
 - EC2 Dashboard
@@ -74,7 +82,7 @@ http://13.207.204.159
 - Nginx Installation
 - Nginx Running Status
 - Website in Browser
-
+- Docker intalled
 
 # Learning Outcomes
 - Created an AWS EC2 instance.
