@@ -51,7 +51,9 @@ df -h
 free -h
 ## Check Running Processes
 ps -ef
----
+## docker installed
+sudo apt install docker.io -y
+docker run hello-world
 
 # Website Deployment
 
@@ -81,3 +83,4 @@ http://13.207.204.159
 - Installed and managed Nginx.
 - Hosted a static website.
 - Used Git and GitHub for version control.
+- Docker installed and run hello world 
